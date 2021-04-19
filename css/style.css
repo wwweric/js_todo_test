@@ -1,0 +1,47 @@
+.todo_area{
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 50%;
+}
+.input_area{
+  background-color: #f4f4f4;
+}
+.progress_area{
+  background-color: #bfbfbf;
+  min-height: 200px;
+}
+.complete_area{
+  background-color: #949494;
+  min-height: 200px;
+}
+
+.ttl{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.todo_list span{
+  margin-right: 10px;
+}
+
+input{
+  border-radius: 10px;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+}
+
+button{
+  border: none;
+  border-radius: 18px;
+  padding: 6px 10px;
+  background-color: #00d5d5;
+  color: #fff;
+}
+
+button:hover{
+background-color: #236ab1;
+cursor: pointer;
+}
