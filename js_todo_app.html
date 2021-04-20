@@ -9,12 +9,12 @@
 </head>
 <body>
 <div class="input_area todo_area">
-  <input type="text" name="" id="" placeholder="TODOを入力" />
-  <button>追加</button>
+  <input type="text" name="" id="add_text" placeholder="TODOを入力" />
+  <button id="add_button">追加</button>
 </div>
 <div class="progress_area todo_area">
   <p class="ttl">未完了のタスク</p>
-  <ul>
+  <ul id="progress_list">
     <li class="todo_list">
       <span>
       TODOです</span>
@@ -25,10 +25,10 @@
 </div>
 <div class="complete_area todo_area">
   <p class="ttl">完了したタスク</p>
-  <ul>
+  <ul id="complete_list">
     <li class="todo_list">
       <span>TODO済</span>
-        <button>戻す</button>
+      <button>戻す</button>
     </li>
   </ul>
 </div>
